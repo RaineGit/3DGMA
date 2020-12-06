@@ -1,0 +1,1123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <CscToolPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Tools/RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.sh</CscToolExe>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{32647331-D5FB-88FF-EF53-36B1CA9552E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_2_6;UNITY_2019_2;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;UNITY_ASTC_ONLY_DECOMPRESS;ANDROID_USE_SWAPPY;ENABLE_ONSCREEN_KEYBOARD;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ClassicSRIA\Scripts\CAbstractViewsHolder.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\ClassicSRIA.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Examples\ClassicGridViewExample.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Examples\Common\CUtil.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Examples\Common\DemoUI.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Examples\Common\SimpleClientModels.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Examples\Common\SimpleClientViewsHolders.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Examples\HorizontalClassicListViewExample.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Examples\VerticalClassicListViewExample.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Util\CExpandCollapseOnClick.cs" />
+     <Compile Include="Assets\ClassicSRIA\Scripts\Util\CLoadSceneOnClick.cs" />
+     <Compile Include="Assets\CSharpCompiler\CodeCompiler.cs" />
+     <Compile Include="Assets\CSharpCompiler\CustomDynamicDriver.cs" />
+     <Compile Include="Assets\CSharpCompiler\CustomReportPrinter.cs" />
+     <Compile Include="Assets\CSharpCompiler\DeferredSynchronizeInvoke.cs" />
+     <Compile Include="Assets\CSharpCompiler\Demo\DemoLoadScripts.cs" />
+     <Compile Include="Assets\CSharpCompiler\ScriptBundleLoader.cs" />
+     <Compile Include="Assets\CSharpCompiler\UnityErrorTextWriter.cs" />
+     <Compile Include="Assets\CSharpCompiler\UnityLogTextWriter.cs" />
+     <Compile Include="Assets\FlexibleColorPicker\ExampleScene\FCP_ExampleScript.cs" />
+     <Compile Include="Assets\FlexibleColorPicker\FlexibleColorPicker.cs" />
+     <Compile Include="Assets\gamefiles\scripts\aaa.cs" />
+     <Compile Include="Assets\gamefiles\scripts\AddComponentButton.cs" />
+     <Compile Include="Assets\gamefiles\scripts\CodeBlock.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ComponentElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ComponentVarElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\Controller.cs" />
+     <Compile Include="Assets\gamefiles\scripts\CustomDropdown.cs" />
+     <Compile Include="Assets\gamefiles\scripts\FakeComponent.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ForTesting.cs" />
+     <Compile Include="Assets\gamefiles\scripts\FPSCounter.cs" />
+     <Compile Include="Assets\gamefiles\scripts\GameFileInfo.cs" />
+     <Compile Include="Assets\gamefiles\scripts\gm.cs" />
+     <Compile Include="Assets\gamefiles\scripts\InputFieldMod.cs" />
+     <Compile Include="Assets\gamefiles\scripts\InstantFollow.cs" />
+     <Compile Include="Assets\gamefiles\scripts\InvertedMaskImage.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ListFileElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ListObjectElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ListObjectSElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ListScriptElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\LogElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\LookAtCam.cs" />
+     <Compile Include="Assets\gamefiles\scripts\MainMenu.cs" />
+     <Compile Include="Assets\gamefiles\scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ObjectController.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ObjectPropsElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ObjectSaver.cs" />
+     <Compile Include="Assets\gamefiles\scripts\ProjectElement.cs" />
+     <Compile Include="Assets\gamefiles\scripts\SimpleObjListControl.cs" />
+     <Compile Include="Assets\gamefiles\scripts\VP_Controller.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\Box_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\Icon_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\Line_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\Mesh_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\Ray_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\Sphere_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\WireCube_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\WireMesh_Gizmo.cs" />
+     <Compile Include="Assets\Gizmo Scripts\Scripts\WireSphere_Gizmo.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\AutoIndent.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\CodeEditor.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\CodeEditorTheme.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\CodeLanguageTheme.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\CommentGroupMatch.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\ILexer.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\InputStringLexer.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\KeywordGroupMatch.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\LiteralGroupMatch.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\MatchLexer.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\NumberGroupMatch.cs" />
+     <Compile Include="Assets\InGameCodeEditor\Scripts\Lexer\SymbolGroupMatch.cs" />
+     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanCircuit.cs" />
+     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanDocumentation.cs" />
+     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanLinkTo.cs" />
+     <Compile Include="Assets\Lean\Common\Scripts\LeanHelper.cs" />
+     <Compile Include="Assets\Lean\Common\Scripts\LeanInspector.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanButton.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanConstrainToParent.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanDrag.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanGui.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanHitbox.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanHover.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanJoystick.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanMoveToTop.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanOrientation.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanPulse.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanResize.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSafeArea.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSelection.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSelectionHighlight.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSelectionManager.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSelectionPriority.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanShake.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSizer.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSwipe.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanSwitch.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanToggle.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanTooltip.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanTooltipData.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanWindow.cs" />
+     <Compile Include="Assets\Lean\GUI\Scripts\LeanWindowCloser.cs" />
+     <Compile Include="Assets\Lean\Transition\Examples\Scripts\LeanAnimation.cs" />
+     <Compile Include="Assets\Lean\Transition\Examples\Scripts\LeanAnimationKeyPress.cs" />
+     <Compile Include="Assets\Lean\Transition\Examples\Scripts\LeanAnimationOnce.cs" />
+     <Compile Include="Assets\Lean\Transition\Examples\Scripts\LeanAnimationRepeater.cs" />
+     <Compile Include="Assets\Lean\Transition\Examples\Scripts\RepeatFromCode.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\AudioSource\LeanAudioSourceVolume.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\GameObject\LeanGameObjectSetActive.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanDelay.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanEvent.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanGet.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanInsert.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanJoin.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanJoinDelay.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanJoinInsert.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanPlaySound.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanQueue.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanTime.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\LeanTimeScale.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Material\LeanMaterialColor.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Material\LeanMaterialFloat.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Material\LeanMaterialVector.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\SpriteRenderer\LeanSpriteRendererColor.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformEulerAngles.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformLocalEulerAngles.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformLocalPosition.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformLocalPositionX.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformLocalPositionY.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformLocalPositionZ.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformLocalRotation.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformLocalScale.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformPosition.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformPositionX.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformPositionY.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformPositionZ.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformRotate.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformRotation.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\Transform\LeanTransformTranslate.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanCanvasGroupAlpha.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanCanvasGroupBlocksRaycasts.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanCanvasGroupInteractable.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanGraphicColor.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanImageFillAmount.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformAnchoredPosition.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformAnchoredPositionX.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformAnchoredPositionY.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformAnchorMax.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformAnchorMin.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformOffsetMax.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformOffsetMin.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformPivot.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformPivotX.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformPivotY.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformSetAsLastSibling.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanRectTransformSizeDelta.cs" />
+     <Compile Include="Assets\Lean\Transition\Methods\UI\LeanTransformLocalScaleXY.cs" />
+     <Compile Include="Assets\Lean\Transition\Scripts\LeanEase.cs" />
+     <Compile Include="Assets\Lean\Transition\Scripts\LeanMethod.cs" />
+     <Compile Include="Assets\Lean\Transition\Scripts\LeanPlayer.cs" />
+     <Compile Include="Assets\Lean\Transition\Scripts\LeanState.cs" />
+     <Compile Include="Assets\Lean\Transition\Scripts\LeanStateWithTarget.cs" />
+     <Compile Include="Assets\Lean\Transition\Scripts\LeanTiming.cs" />
+     <Compile Include="Assets\Lean\Transition\Scripts\LeanTransition.cs" />
+     <Compile Include="Assets\loadingBar\scripts\Loading.cs" />
+     <Compile Include="Assets\loadingBar\scripts\loadingbar.cs" />
+     <Compile Include="Assets\loadingBar\scripts\loadingcolorful.cs" />
+     <Compile Include="Assets\loadingBar\scripts\loadingtext.cs" />
+     <Compile Include="Assets\loadingBar\scripts\rotatetotate.cs" />
+     <Compile Include="Assets\loadingBar\scripts\SimpleLoading.cs" />
+     <Compile Include="Assets\loadingBar\scripts\simplerotate.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\xx - SelectionBoxes\RefreshSelectionBox.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Anim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ButtonInteractableControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\CheckboxConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\CheckboxFillerControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\CheckBoxToggler.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ColorCopier.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\DialogBoxConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\EZAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\InputFieldConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialGlobals.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUIScaler.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUIVersion.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MenuArrowAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\NavDrawerConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RadioConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RectTransformSnap.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RippleAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RippleConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RippleControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ScreenConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ScreenManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxSubscriber.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SelectionListItemConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowGen.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowSnap.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SliderConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SnapButtonToText.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SpriteSwapper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SwitchConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\TextInputLine.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToastAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToastControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Toaster.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\MaterialSwitcher.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\OutlineAnimation.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\Rotate.cs" />
+     <Compile Include="Assets\OutlineEffect\Demo\Toggle.cs" />
+     <Compile Include="Assets\OutlineEffect\LinkedSet.cs" />
+     <Compile Include="Assets\OutlineEffect\Outline.cs" />
+     <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
+     <Compile Include="Assets\OutlineToolkit\Script\Demonstration_MeshProcessing.cs" />
+     <Compile Include="Assets\OutlineToolkit\Script\Demonstration_NoclipController.cs" />
+     <Compile Include="Assets\OutlineToolkit\Script\EdgeDetect.cs" />
+     <Compile Include="Assets\OutlineToolkit\Script\MeshProcessor.cs" />
+     <Compile Include="Assets\Pluginss\AndroidRuntimePermissions\Android\PermissionCallback.cs" />
+     <Compile Include="Assets\Pluginss\AndroidRuntimePermissions\Android\PermissionCallbackAsync.cs" />
+     <Compile Include="Assets\Pluginss\AndroidRuntimePermissions\Android\PermissionCallbackHelper.cs" />
+     <Compile Include="Assets\Pluginss\AndroidRuntimePermissions\AndroidRuntimePermissions.cs" />
+     <Compile Include="Assets\Pluginss\SuperPivot\API.cs" />
+     <Compile Include="Assets\Pluginss\SuperPivot\ShowPivot.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Custom\TransformGizmoCustomGizmo.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Helpers\ExtMathf.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Helpers\ExtTransform.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Helpers\ExtTransformType.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Helpers\ExtVector3.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Helpers\Geometry.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\AxisInfo.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\AxisVectors.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\Commands\SelectCommand.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\Commands\TransformCommand.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\Enums.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\IntersectPoints.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\Square.cs" />
+     <Compile Include="Assets\RuntimeGizmo\Objects\TargetInfo.cs" />
+     <Compile Include="Assets\RuntimeGizmo\TransformGizmo.cs" />
+     <Compile Include="Assets\RuntimeGizmo\UndoRedo\CommandGroup.cs" />
+     <Compile Include="Assets\RuntimeGizmo\UndoRedo\DropoutStack.cs" />
+     <Compile Include="Assets\RuntimeGizmo\UndoRedo\ICommand.cs" />
+     <Compile Include="Assets\RuntimeGizmo\UndoRedo\UndoRedo.cs" />
+     <Compile Include="Assets\RuntimeGizmo\UndoRedo\UndoRedoManager.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\Scripts\ColorHuePicker.cs" />
+     <Compile Include="Assets\Scripts\ColorIndicator.cs" />
+     <Compile Include="Assets\Scripts\ColorSaturationBrightnessPicker.cs" />
+     <Compile Include="Assets\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Scripts\ExampleColorReceiver.cs" />
+     <Compile Include="Assets\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Android\FBCallbackHelper.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Android\FBDirectoryReceiveCallbackAndroid.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Android\FBPermissionCallbackAndroid.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\FileBrowser.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\FileBrowserHelpers.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\FileBrowserItem.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\FileBrowserMovement.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\FileBrowserQuickLink.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\SimpleRecycledListView\IListViewAdapter.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\SimpleRecycledListView\ListItem.cs" />
+     <Compile Include="Assets\SimpleFileBrowser\Scripts\SimpleRecycledListView\RecycledListView.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\AnimationText.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\AssetDownloaderZIP.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\AssetLoaderWindow.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\BlendShapeControl.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\CustomIOLoadSample.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\DownloadSample.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\ErrorDialog.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\FileOpenDialog.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\FileText.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\LoadSample.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\LoadSampleAsync.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\PersistentDataPathLoadSample.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\ProgressHandlingSample.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\SimpleRotator.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Samples\Scripts\URIDialog.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetAdvancedConfigs.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetDownloader.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoader.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderAsync.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderBase.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderOptions.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderZip.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssetUnloader.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssimpConfigs.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssimpInterop.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\AssimpMetadataCollection.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AnimationChannelData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AnimationCurveData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AnimationData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AssimpMetadata.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\CameraData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\ConcurrentList.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\EmbeddedTextureData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\FileLoadData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MaterialData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MeshData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MorphChannelData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MorphChannelKey.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MorphData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\NodeData.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\MaterialShadingMode.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\STBImageInterop.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\AssetLoader\STBImageLoader.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\CameraExtensions.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\Dispatcher.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\FileUtils.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\JSHelper.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\MatrixExtensions.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\StreamUtils.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\StringUtils.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\Texture2DUtils.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\ThreadUtils.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\TransformExtensions.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\TriLibProjectUtils.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Scripts\Extensions\UWPUtils.cs" />
+     <Compile Include="Assets\TriLib\TriLibExtras\Samples\Scripts\AvatarLoaderSample.cs" />
+     <Compile Include="Assets\TriLib\TriLibExtras\Scripts\AvatarLoader.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Attributes\USLUAttributes.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\ExampleScriptsAndClasses\TestClass.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\ExampleScriptsAndClasses\TestScript.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Non-Mono Classes\ObjectComponent.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Non-Mono Classes\SaveGame.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Non-Mono Classes\SceneObject.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\ObjectIdentifier.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\PersistenceMarker.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\SaveLoad.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\SaveLoadMenu.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\SaveLoadUtility.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Surrogates\Color32Surrogate.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Surrogates\ColorSurrogate.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Surrogates\QuaternionSurrogate.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Surrogates\Vector2Surrogate.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Surrogates\Vector3Surrogate.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Surrogates\Vector4Surrogate.cs" />
+     <Compile Include="Assets\Unity Save Load Utility\Utilities\TypeSystem.cs" />
+     <Compile Include="Assets\UnityAndroidNativeFileOpener\AndroidContentOpenerWrapper.cs" />
+     <Compile Include="Assets\UnityAndroidNativeFileOpener\OpenFileExample.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Content\FirstPersonExample\Scripts\API_Demo.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Content\FirstPersonExample\Scripts\FirstPersonExample.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Content\FirstPersonExample\Scripts\FirstPersonExample2.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Attributes\ApplyMethodAttribute.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Attributes\LabelAttribute.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Attributes\LogicLabelAttribute.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Camera\GuiCamera.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Controllers\BaseData\AxesBasedController.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Controllers\BaseData\ControllerBase.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Controllers\BaseData\Enums.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Controllers\TCKButton.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Controllers\TCKJoystick.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\Controllers\TCKTouchpad.cs" />
+     <Compile Include="Assets\VictorsAssets\TouchControlsKit-Lite\Scripts\Runtime\TCKInput.cs" />
+     <None Include="Assets\TriLib\Third-Party Notices.txt" />
+     <None Include="Assets\Pluginss\SuperPivot\HowToUse.txt" />
+     <None Include="Assets\TriLib\LICENSE_SharpZipLib.txt" />
+     <None Include="Assets\RuntimeGizmo\Shader\Resources\Lines.shader" />
+     <None Include="Assets\gamefiles\other\inverse.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TriLib\TriLibExtras\Samples\Models\PutYourCustomModelsHere.txt" />
+     <None Include="Assets\OutlineEffect\Resources\OutlineShader.shader" />
+     <None Include="Assets\InGameCodeEditor\Fonts\LICENSE.txt" />
+     <None Include="Assets\Pluginss\Android\AndroidManifest.xml" />
+     <None Include="Assets\Lean\Common\Examples\Shaders\Alpha.shader" />
+     <None Include="Assets\OutlineToolkit\Shader\NamedStandard.shader" />
+     <None Include="Assets\TriLib\LICENSE_ZLIB_MiniZip.txt" />
+     <None Include="Assets\SimpleFileBrowser\README.txt" />
+     <None Include="Assets\OutlineEffect\Resources\OutlineBufferShader.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Pluginss\AndroidRuntimePermissions\README.txt" />
+     <None Include="Assets\Resources\NewScene.txt" />
+     <None Include="Assets\InGameCodeEditor\CompatibilityDemo\IMPORTANT.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TriLib\LICENSE_TriLib.txt" />
+     <None Include="Assets\TriLib\README_TriLib.txt" />
+     <None Include="Assets\OutlineToolkit\Shader\StandardSurfaceOutlined.shader" />
+     <None Include="Assets\TriLib\LICENSE_LibTiff.txt" />
+     <None Include="Assets\OutlineToolkit\Happy Flower\happy flower care instructions.txt" />
+     <None Include="Assets\Pluginss\AndroidRuntimePermissions\CREDITS.txt" />
+     <None Include="Assets\TriLib\LICENSE_UnityToolbag.txt" />
+     <None Include="Assets\gamefiles\fonts\Roboto\LICENSE.txt" />
+     <None Include="Assets\Shaders\ColorHue.shader" />
+     <None Include="Assets\OutlineToolkit\Shader\Outline.shader" />
+     <None Include="Assets\TriLib\TriLibVersion.txt" />
+     <None Include="Assets\OutlineToolkit\Shader\OutlineDepthDependant.shader" />
+     <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
+     <None Include="Assets\OutlineToolkit\Shader\EncodedDepth.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TriLib\LICENSE_Assimp.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\JsonDotNet\link.xml" />
+     <None Include="Assets\Lean\Common\Examples\Fonts\OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\TriLib\README_AvatarLoader.txt" />
+     <None Include="Assets\VictorsAssets\TouchControlsKit-Lite\Content\FirstPersonExample\ReadMeToo.txt" />
+     <None Include="Assets\OutlineToolkit\Shader\EdgeDetect.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\Shaders\ColorSaturationBrightness.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Lean\Common\Examples\Shaders\Skybox.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\gamefiles\other\UIMasked.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\OutlineToolkit\Shader\Normals.shader" />
+     <None Include="Assets\gamefiles\other\$dd_Invert.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Lean\READ ME.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\OutlineToolkit\README.txt" />
+     <None Include="Assets\gamefiles\other\UIMask.shader" />
+     <None Include="Assets\gamefiles\materials\xRayShader.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Lean\Common\Examples\Shaders\Object.shader" />
+     <None Include="Assets\OutlineToolkit\Shader\EdgeCombine.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\VictorsAssets\TouchControlsKit-Lite\TCK_Changelog.txt" />
+     <None Include="Assets\Shaders\SolidColor.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TriLib\LICENSE_Roboto.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TriLib\LICENSE_stb_image.txt" />
+     <None Include="Assets\RuntimeGizmo\Shader\Resources\Outline.shader" />
+     <None Include="Assets\readme.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\OutlineToolkit\Shader\ProcessedEdges.shader" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="mcs">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Assets/CSharpCompiler/Plugins/mcs.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/media/mcleocito/Toshiba/Documents/Proyectos_Unity/UnityCloudProjects/3DGMA Downgraded/Assets/TriLib/TriLib/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>/media/mcleocito/Toshiba/Development_stuff/Unity stuff/Unity Editor/Linux/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{2355F07E-3F2F-870D-1B83-2EB2ED834157}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Coffee.UnmaskForUGUI.csproj">
+      <Project>{8A3EBF7B-CFFE-90F9-C4E8-CFA6B02580BE}</Project>
+      <Name>Coffee.UnmaskForUGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{BD52CD30-CBA7-B8CB-43B2-8A12886DC316}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{6FBEAD26-5ABF-B65D-64EB-02D66D39D1F1}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
