@@ -792,12 +792,16 @@ public class Controller : MonoBehaviour {
 			if(child.GetComponent<ListFileElement>() != null && child.GetComponent<ListFileElement>().toggle.isOn)
 				selectedFiles.Add(child.GetComponent<ListFileElement>().PathToThisFile);
 		}
-		OpenFileChooser(true);
-		selecting = true;
-		selectingReason = "Move file";
-		fileChooserSelectFolderButtonText.text = "Move here";
-		fileChooserSelectFolderButton.gameObject.SetActive(true);
-		loadFiles2(filelistcurrent);
+		if(selectedFiles.Count() > 0){
+			OpenFileChooser(true);
+			selecting = true;
+			selectingReason = "Move file";
+			fileChooserSelectFolderButtonText.text = "Move here";
+			fileChooserSelectFolderButton.gameObject.SetActive(true);
+			loadFiles2(filelistcurrent);
+		}
+		else
+			showAlert("You have to select at least one file or folder", "Error");
 	}
 
 	public void CopyFile(){
@@ -806,12 +810,16 @@ public class Controller : MonoBehaviour {
 			if(child.GetComponent<ListFileElement>() != null && child.GetComponent<ListFileElement>().toggle.isOn)
 				selectedFiles.Add(child.GetComponent<ListFileElement>().PathToThisFile);
 		}
-		OpenFileChooser(true);
-		selecting = true;
-		selectingReason = "Copy file";
-		fileChooserSelectFolderButtonText.text = "Copy here";
-		fileChooserSelectFolderButton.gameObject.SetActive(true);
-		loadFiles2(filelistcurrent);
+		if(selectedFiles.Count() > 0){
+			OpenFileChooser(true);
+			selecting = true;
+			selectingReason = "Copy file";
+			fileChooserSelectFolderButtonText.text = "Copy here";
+			fileChooserSelectFolderButton.gameObject.SetActive(true);
+			loadFiles2(filelistcurrent);
+		}
+		else
+			showAlert("You have to select at least one file or folder", "Error");
 	}
 
 	public void DeleteFile(){
@@ -820,8 +828,12 @@ public class Controller : MonoBehaviour {
 			if(child.GetComponent<ListFileElement>() != null && child.GetComponent<ListFileElement>().toggle.isOn)
 				selectedFiles.Add(child.GetComponent<ListFileElement>().PathToThisFile);
 		}
-		selectingReason = "Delete file";
-		DeleteConfirmation();
+		if(selectedFiles.Count() > 0){
+			selectingReason = "Delete file";
+			DeleteConfirmation();
+		}
+		else
+			showAlert("You have to select at least one file or folder", "Error");
 	}
 
 	public void OpenRenameFilePanel(){
@@ -830,8 +842,12 @@ public class Controller : MonoBehaviour {
 			if(child.GetComponent<ListFileElement>() != null && child.GetComponent<ListFileElement>().toggle.isOn)
 				selectedFiles.Add(child.GetComponent<ListFileElement>().PathToThisFile);
 		}
-		renameInput.text = new FileInfo(selectedFiles[0]).Name;
-		renamePanel.SetActive(true);
+		if(selectedFiles.Count() > 0){
+			renameInput.text = new FileInfo(selectedFiles[0]).Name;
+			renamePanel.SetActive(true);
+		}
+		else
+			showAlert("You have to select at least one file or folder", "Error");
 	}
 
 	public void RenameFile(){

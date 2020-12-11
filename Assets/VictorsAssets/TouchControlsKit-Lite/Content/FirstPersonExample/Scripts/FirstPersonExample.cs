@@ -109,7 +109,7 @@ namespace Examples
             if( grounded )            
                 moveDirection *= 7f;
             
-            transform.Translate( moveDirection * Time.fixedDeltaTime );
+            transform.Translate(moveDirection * Time.fixedDeltaTime, Space.World);
 
             if( !prevGrounded && grounded )
                 moveDirection.y = 0f;

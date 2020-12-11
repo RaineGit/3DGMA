@@ -1,6 +1,7 @@
 .vscode/
 Logs/
 Temp/
+Assets/TriLib
 Library/ArtifactDB
 Library/PackageManager/ProjectCache.bin
 Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
