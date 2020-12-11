@@ -156,6 +156,7 @@ public class Controller : MonoBehaviour {
 	public GameObject scene;
 	GameObject originalScene;
 	public GameObject fakescene;
+	public Canvas mainCanvas;
 	public bool isRunning = false;
 	public Text preinput;
 	public bool selecting = false;
@@ -1300,6 +1301,7 @@ public class Controller : MonoBehaviour {
 
 	public void setLandscape(){
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
+		mainCanvas.GetComponent<CanvasScaler>().matchWidthOrHeight = 1;
 		//StartCoroutine(SetResolutionTo720p());
 	}
 
@@ -1310,6 +1312,7 @@ public class Controller : MonoBehaviour {
 
 	public void setPortrait(){
 		Screen.orientation = ScreenOrientation.Portrait;
+		mainCanvas.GetComponent<CanvasScaler>().matchWidthOrHeight = 0;
 		//Screen.SetResolution(720, 1280, true);
 	}
 
