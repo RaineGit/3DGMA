@@ -1,4 +1,4 @@
-# 3DGMA is a 3D game maker that can run on Android devices
+## 3DGMA is a 3D game maker that can run on Android devices
 ### I am not working on this project anymore, feel free to resume its development.
 
 # IMPORTANT:
